@@ -1,0 +1,9 @@
+1.pip install scrapy_proxy_pool
+2.In settings enter PROXY_POOL_ENABLED=True
+3.In settings paste following code
+DOWNLOADER_MIDDLEWARES = {
+    # ...
+    'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware': 610,
+    'scrapy_proxy_pool.middlewares.BanDetectionMiddleware': 620,
+    # ...
+}
