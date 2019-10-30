@@ -1,0 +1,6 @@
+1. In google.com type Googlebot User Agent
+2. Go to https://developers.whatismybrowser.com/useragents/explore/software_name/googlebot/
+3. Copy the first user agent name (eg. Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	 )
+4. In settings set 
+   BOT_NAME = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	'
+   (in general BOT_NAME = 'name of your user agent') 
